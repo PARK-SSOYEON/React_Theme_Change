@@ -16,6 +16,16 @@
 ├── package.json
 └── README.md
 
+- **src/**: 주요 소스 코드 디렉토리입니다.
+  - **Page/**: 페이지 관련 컴포넌트들이 포함된 디렉토리입니다.
+    - **Mainpage.jsx**: 메인 페이지 컴포넌트입니다.
+    - **ThemeContext.jsx**: 테마 컨텍스트를 정의한 파일입니다.
+    - **ThemedComponent.jsx**: 테마를 적용한 컴포넌트입니다.
+  - **App.js**: 애플리케이션의 루트 컴포넌트입니다.
+  - **index.js**: 애플리케이션의 진입점 파일입니다.
+- **package.json**: 프로젝트 메타데이터와 종속성 관리 파일입니다.
+- **README.md**: 프로젝트에 대한 설명 파일입니다.
+
 
 ## 예시 (Screenshot)
 
