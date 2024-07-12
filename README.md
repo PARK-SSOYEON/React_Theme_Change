@@ -5,8 +5,8 @@
 
 ## 예시 (Screenshot)
 
-<img src="images/screenshot1.png" width="720" height="405"/>
-<img src="images/screenshot2.png" width="300" height="405"/>
+<img src="public/img/React_screenshot1.png" width="720" height=auto />
+<img src="public/img/React_screenshot2.png" width="720" height=auto />
 
 ## 기능
 1. 입력창에 이름을 입력하면 하단에 입력한 이름이 표시됩니다.
