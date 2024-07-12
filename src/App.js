@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useCallback} from "react";
+import styled, {ThemeProvider} from "styled-components";
+import Mainpage from "./Page/Mainpage";
+import ThemeContext from "./Page/ThemeContext";
 
-function App() {
+const MainTitleText = styled.p`
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+`;
+
+function App(props) {
+    const [theme, setTheme] = useState('light');
+
+    const toggleTheme = useCallback(() => {
+        setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+    }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <ThemeContext.Provider value={{theme, toggleTheme}}>
+          <ThemeProvider theme={{ mode: theme }}>
+              <div
+                  style={{
+                      width: "100vw",
+                      height: "100vh",
+                      backgroundColor: theme === 'light' ? "white" : "black",
+                      color: theme === 'light' ? "black" : "white",
+                      textAlign: 'center',
+                      padding: '20px'
+                  }}
+              >
+                  <MainTitleText theme={theme}>React Theme Change</MainTitleText>
+                  <Mainpage />
+              </div>
+          </ThemeProvider>
+      </ThemeContext.Provider>
   );
 }
 
