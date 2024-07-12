@@ -16,6 +16,7 @@
 ├── package.json
 └── README.md
 
+```bash
 project-root/
 ├── src/
 │ ├── Page/
@@ -26,6 +27,7 @@ project-root/
 │ └── index.js
 ├── package.json
 └── README.md
+```
 
 - **src/**: 주요 소스 코드 디렉토리입니다.
   - **Page/**: 페이지 관련 컴포넌트들이 포함된 디렉토리입니다.
