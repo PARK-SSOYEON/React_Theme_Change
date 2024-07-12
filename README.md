@@ -5,16 +5,27 @@
 
 ## 파일 구조
 │
+
 ├── src/
+
 │   ├── Page/
+
 │   │     ├── Mainpage.jsx
+
 │   │     ├── ThemeContext.jsx
+
 │   │     └── ThemedComponent.jsx
+
 │   ├── App.js
+
 │   └── index.js
+
 │
+
 ├── package.json
+
 └── README.md
+
 
 ## 예시 (Screenshot)
 
