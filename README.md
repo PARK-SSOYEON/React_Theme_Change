@@ -16,6 +16,17 @@
 ├── package.json
 └── README.md
 
+project-root/
+├── src/
+│ ├── Page/
+│ │ ├── Mainpage.jsx
+│ │ ├── ThemeContext.jsx
+│ │ └── ThemedComponent.jsx
+│ ├── App.js
+│ └── index.js
+├── package.json
+└── README.md
+
 - **src/**: 주요 소스 코드 디렉토리입니다.
   - **Page/**: 페이지 관련 컴포넌트들이 포함된 디렉토리입니다.
     - **Mainpage.jsx**: 메인 페이지 컴포넌트입니다.
