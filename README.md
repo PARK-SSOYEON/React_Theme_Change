@@ -4,18 +4,6 @@
 페이지 테마를 변경할 수 있습니다.
 
 ## 파일 구조
-│
-├── src/
-│   ├── Page/
-│   │     ├── Mainpage.jsx
-│   │     ├── ThemeContext.jsx
-│   │     └── ThemedComponent.jsx
-│   ├── App.js
-│   └── index.js
-│
-├── package.json
-└── README.md
-
 ```bash
 project-root/
 ├── src/
