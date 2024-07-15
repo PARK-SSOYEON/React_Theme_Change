@@ -3,6 +3,12 @@
 사용자가 입력한 이름과 현재 날짜를 표시하는 간단한 페이지입니다.
 페이지 테마를 변경할 수 있습니다.
 
+1. [파일 구조 (File Structure)](#파일-구조-file-structure)
+2. [예시 (Screenshot)](#예시-screenshot)
+3. [기능 (Features)](#기능-features)
+4. [설치 (Installation)](#설치-installation)
+5. [실행 (Usage)](#실행-usage)
+
 ## 파일 구조
 ```bash
 project-root/
@@ -33,7 +39,7 @@ project-root/
 <img src="public/img/React_screenshot1.png" width="720" height=auto />
 <img src="public/img/React_screenshot2.png" width="720" height=auto />
 
-## 기능
+## 기능 (Features)
 1. 입력창에 이름을 입력하면 하단에 입력한 이름이 표시됩니다.
 2. 현재 날짜와 시간이 표시됩니다.
 3. change theme을 클릭하면 테마가 바뀝니다.
@@ -45,4 +51,9 @@ git clone https://github.com/PARK-SSOYEON/Todo_Aplication_React.git
 cd repo
 npm install
 npm install styled-components
+```
+
+## 실행 (Usage)
+```bash
+npm start
 ```
