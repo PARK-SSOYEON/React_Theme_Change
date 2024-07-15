@@ -38,3 +38,11 @@ project-root/
 2. 현재 날짜와 시간이 표시됩니다.
 3. change theme을 클릭하면 테마가 바뀝니다.
 4. 테마는 'light', 'dark' 두 가지가 있습니다.
+
+## 설치 (Installation)
+```bash
+git clone https://github.com/PARK-SSOYEON/Todo_Aplication_React.git
+cd repo
+npm install
+npm install styled-components
+```
