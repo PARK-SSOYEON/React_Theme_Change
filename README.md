@@ -9,7 +9,7 @@
 4. [설치 (Installation)](#설치-installation)
 5. [실행 (Usage)](#실행-usage)
 
-## 파일 구조
+## 파일 구조 (File Structure)
 ```bash
 project-root/
 ├── src/
